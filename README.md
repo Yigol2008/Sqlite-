@@ -97,7 +97,7 @@ SET column1 = value1, column2 = value2...., columnN = valueN
 WHERE [condition];
 ```
 
- ####LIMIT 子句用于限制由 SELECT 语句返回的数据量:
+####LIMIT 子句用于限制由 SELECT 语句返回的数据量:
 ```sql
  SELECT column1, column2, columnN 
 FROM table_name
