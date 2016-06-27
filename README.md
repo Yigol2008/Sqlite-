@@ -97,17 +97,6 @@ SET column1 = value1, column2 = value2...., columnN = valueN
 WHERE [condition];
 ```
 
-####LIMIT 子句用于限制由 SELECT 语句返回的数据量:
-```sql
- SELECT column1, column2, columnN 
-FROM table_name
-LIMIT [no of rows]
-
-SELECT column1, column2, columnN 
-FROM table_name
-LIMIT [no of rows] OFFSET [row num]
-```
-
 ##ORDER BY 子句
 ####ORDER BY是用来递增或递减的顺序，根据一个或多个列中的数据进行排序,ORDER BY子句的基本语法如下：
 ```sql
