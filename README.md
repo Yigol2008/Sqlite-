@@ -195,21 +195,21 @@ WHERE [condition]
 ```
 
 ##JOINS连接
-#####INNER JOIN
+#####INNER JOIN (INNER JOIN 关键字在表中存在至少一个匹配时返回行。如果 "Persons" 中的行在 "Orders" 中没有匹配，就不会列出这些行)
 ```sql
 SELECT column_name(s)
 FROM table_name1
 INNER JOIN table_name2 
 ON table_name1.column_name=table_name2.column_name
 ```
-#####LEFT JOIN
+#####LEFT JOIN (LEFT JOIN 关键字会从左表 (Persons) 那里返回所有的行，即使在右表 (Orders) 中没有匹配的行。)
 ```sql
 SELECT column_name(s)
 FROM table_name1
 LEFT JOIN table_name2 
 ON table_name1.column_name=table_name2.column_name
 ```
-#####RIGHT JOIN
+#####RIGHT JOIN (RIGHT JOIN 关键字会从右表 (Orders) 那里返回所有的行，即使在左表 (Persons) 中没有匹配的行。)
 ```sql
 SELECT column_name(s)
 FROM table_name1
